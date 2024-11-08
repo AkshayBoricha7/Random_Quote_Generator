@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(89, 89, 220) !important;
+    padding: 25vh;
+}
+
+.container {
+    width: 50vw !important;
+}
+
+.speechButton, .copyButton {
+    border-radius: 50% !important;
+}
+
+.iconsRow {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
